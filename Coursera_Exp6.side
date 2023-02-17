@@ -1,0 +1,672 @@
+{
+  "id": "43242be8-ed77-4fbc-8284-5226c1b28b48",
+  "version": "2.0",
+  "name": "Cousera Exp06",
+  "url": "https://www.coursera.org/",
+  "tests": [{
+    "id": "7f12e68a-15ed-40d8-bfc9-f72717af549f",
+    "name": "open_website",
+    "commands": [{
+      "id": "0083a7ef-9c1e-4259-9b00-057483751514",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4de536b-a7e8-4301-b826-3a4127dd2658",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "650x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65ff6b78-4af5-41ec-8b84-3c65265dfd78",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "coursera"
+    }, {
+      "id": "3be015a4-d04e-4a66-8310-309296672cd4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a27c6983-fe51-47f7-baf5-06e25238a6e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.kvH3mc:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.kvH3mc:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Coursera | Degrees, Certificates, & Free Online Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bd84938-e7b5-4f60-b9bf-a3d3c307ac05",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.kvH3mc:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.kvH3mc:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Coursera | Degrees, Certificates, & Free Online Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8fb0ddb-f174-426a-b15c-974d66af8286",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CCgQ5 > span",
+      "targets": [
+        ["css=.CCgQ5 > span", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Coursera | Online Courses & Credentials From Top Educators')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d527f34e-37a3-4ed8-9a1e-5a38137c3842",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "eb59e399-da9f-43cd-9087-417cc4cd849a",
+    "name": "login",
+    "commands": [{
+      "id": "6e1f36be-b07a-4262-9ed9-0f8570fce674",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.coursera.org/?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA__branded_FTCOF__arte&utm_content=B2C&campaignid=18216928764&adgroupid=141296025592&device=c&keyword=cousera&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=619458216878&hide_mobile_promo&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9sir5IieUhkBZhl1dkUWErem0TDbpIVJhNgO_Hn07QylO0cvjzCzkaAqE6EALw_wcB",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a4f11c4-a63f-4c1a-a042-b94e1f51d7be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ebd2758-bf10-4185-98e7-3832c1011450",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log In",
+      "targets": [
+        ["linkText=Log In", "linkText"],
+        ["css=.c-ph-log-in > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log In')]", "xpath:link"],
+        ["xpath=//div[@id='rendered-content']/div/header/div/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/?adgroupid=141296025592&adpostion=&authMode=login&campaignid=18216928764&creativeid=619458216878&device=c&devicemodel=&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9sir5IieUhkBZhl1dkUWErem0TDbpIVJhNgO_Hn07QylO0cvjzCzkaAqE6EALw_wcB&hide_mobile_promo&keyword=cousera&matchtype=b&network=g&utm_campaign=B2C_INDIA__branded_FTCOF__arte&utm_content=B2C&utm_medium=sem&utm_source=gg')]", "xpath:href"],
+        ["xpath=//header/div/div/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d08f893-e80f-4c57-8154-6d0eba5c2ed9",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "sskharat_m22@ce.vjti.ac.in"
+    }, {
+      "id": "254f559e-4f54-4bfd-ac07-8ee22c72bcbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cfccbcd-0c3e-4007-a2f6-da6e90def650",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "vjti@123"
+    }, {
+      "id": "1985aac4-9df4-4901-838d-d107897638f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_6dgzsvq",
+      "targets": [
+        ["css=.\\_6dgzsvq", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68d548e5-f7a9-451c-97de-27c860fa2db9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_e19ffvz:nth-child(4)",
+      "targets": [
+        ["css=.\\_e19ffvz:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/section/div/div/div/div/div/div/section/div[2]/div/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Explore topics outside of work')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ede85f-595c-4b3b-af31-f42d64e1b5e2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_e19ffvz:nth-child(4)",
+      "targets": [
+        ["css=.\\_e19ffvz:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/section/div/div/div/div/div/div/section/div[2]/div/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Explore topics outside of work')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50ff89c6-5d65-486e-a1f6-4c46b2553cc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-ph-username",
+      "targets": [
+        ["css=.c-ph-username", "css:finder"],
+        ["xpath=//button[@id='right-nav-dropdown-btn']/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shweta Kharat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3237197-6cca-4408-bb8a-4b69b37296c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-ph-right-nav-button:nth-child(8) #logout-btn",
+      "targets": [
+        ["css=.c-ph-right-nav-button:nth-child(8) #logout-btn", "css:finder"],
+        ["xpath=(//button[@id='logout-btn'])[2]", "xpath:attributes"],
+        ["xpath=//ul[@id='c-ph-aai-dropdown']/li[8]/form/button", "xpath:idRelative"],
+        ["xpath=//li[8]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b4f1127-571e-4837-bdf1-80b176f8c46f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "68e235d7-1cff-4052-8844-f7c97006f285",
+    "name": "search",
+    "commands": [{
+      "id": "59d0beaa-8261-426a-8f5a-b7862495532b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.coursera.org/?adgroupid=141296025592&adpostion=&campaignid=18216928764&creativeid=619458216878&device=c&devicemodel=&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9sir5IieUhkBZhl1dkUWErem0TDbpIVJhNgO_Hn07QylO0cvjzCzkaAqE6EALw_wcB&hide_mobile_promo&keyword=cousera&matchtype=b&network=g&utm_campaign=B2C_INDIA__branded_FTCOF__arte&utm_content=B2C&utm_medium=sem&utm_source=gg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3f3ea15-3f9d-4327-a9fb-da19f946a8d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb07901c-244d-4cdb-b253-ad115d14f079",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/span/div/header/div/div/div/div/div/div[3]/div/div[2]/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0814287-bb0a-426f-ac9d-7f73cb64310d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='data science']", "xpath:attributes"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/span/div/header/div/div/div/div/div/div[3]/div/div[2]/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "data science"
+    }, {
+      "id": "a2903242-9076-4e19-b8ce-b7f7b7145775",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='data science']", "xpath:attributes"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/span/div/header/div/div/div/div/div/div[3]/div/div[2]/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "89ea3eca-01a9-4988-8802-48125fa63057",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a81f090c-1f1d-4a5a-ade5-be6c37ffb23a",
+    "name": "enroll",
+    "commands": [{
+      "id": "b1a7c050-7688-48a0-a9b3-d24ee3f833d9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.coursera.org/?adgroupid=141296025592&adpostion=&campaignid=18216928764&creativeid=619458216878&device=c&devicemodel=&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9sir5IieUhkBZhl1dkUWErem0TDbpIVJhNgO_Hn07QylO0cvjzCzkaAqE6EALw_wcB&hide_mobile_promo&keyword=cousera&matchtype=b&network=g&utm_campaign=B2C_INDIA__branded_FTCOF__arte&utm_content=B2C&utm_medium=sem&utm_source=gg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ff9c3cf-582d-47f9-ba2b-d56755ae5c7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x798",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "540ae0db-d363-4c24-9e17-0c4d37c70fb6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Completed",
+      "targets": [
+        ["linkText=Completed", "linkText"],
+        ["css=.loggedInHome-tab:nth-child(3) > .cds-33", "css:finder"],
+        ["xpath=//a[contains(text(),'Completed')]", "xpath:link"],
+        ["xpath=//nav[@id='main']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/completed')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Completed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2f2f3ed-0ef3-4650-bac9-38c9a2138721",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Completed",
+      "targets": [
+        ["linkText=Completed", "linkText"],
+        ["css=.loggedInHome-tab:nth-child(3) > .cds-33", "css:finder"],
+        ["xpath=//a[contains(text(),'Completed')]", "xpath:link"],
+        ["xpath=//nav[@id='main']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/completed')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Completed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e90fd741-ea4a-4fce-96fd-c55b81fd3093",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-mobile-toggle-button > .\\_ufjrdd",
+      "targets": [
+        ["css=.c-mobile-toggle-button > .\\_ufjrdd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "673106a1-d691-4769-8be7-06e1ffdca446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1bqcmoc",
+      "targets": [
+        ["css=.css-1bqcmoc", "css:finder"],
+        ["xpath=//div[@id='MegamenuWrapperDiv']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96d20c16-2beb-47de-a391-3b50f41557d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#free\\~menu-item > span",
+      "targets": [
+        ["css=#free\\~menu-item > span", "css:finder"],
+        ["xpath=//a[@id='free~menu-item']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bc53623-6d53-47c3-86cd-3c7aef4d787c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cds-63:nth-child(1) > .css-1j8ushu .css-17z2etb > img",
+      "targets": [
+        ["css=.cds-63:nth-child(1) > .css-1j8ushu .css-17z2etb > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/7e/aff5b0f54c11e7b5ae579a0e963c38/Logo_TheScienceofWell-Being.png?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25')]", "xpath:img"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/div/ul/li/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f912ff25-b90f-4a93-8426-dd4e1ec931c8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cds-63:nth-child(1) > .css-1j8ushu .css-17z2etb > img",
+      "targets": [
+        ["css=.cds-63:nth-child(1) > .css-1j8ushu .css-17z2etb > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/7e/aff5b0f54c11e7b5ae579a0e963c38/Logo_TheScienceofWell-Being.png?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25')]", "xpath:img"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/div/ul/li/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dadbe1d-7f96-4f13-be22-c868de272f91",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,408.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64eb9173-09fd-4967-a12c-9bf1fd6bc53f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cds-63:nth-child(4) .css-17z2etb > img",
+      "targets": [
+        ["css=.cds-63:nth-child(4) .css-17z2etb > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/51/51d7604aba11e7ae3525d9720463e7/Shiller_FinancialMarkets_New.png?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25')]", "xpath:img"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/div/ul/li[4]/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4267",
+      "windowTimeout": 2000
+    }, {
+      "id": "269c8e8a-823d-491a-8acc-e2f3f35f521f",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e9e99ce-f0c4-4701-b91a-458fb1c01d86",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4267}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04516971-1416-48a8-b76d-85b307ea50e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1gn503s > .cds-2",
+      "targets": [
+        ["css=.css-1gn503s > .cds-2", "css:finder"],
+        ["xpath=//div[@id='main']/div[5]/div/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51bd2780-5e9a-4986-ac8b-082abfe35103",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1gn503s > .cds-2",
+      "targets": [
+        ["css=.css-1gn503s > .cds-2", "css:finder"],
+        ["xpath=//div[@id='main']/div[5]/div/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0eaa42f-cac3-40b8-9e62-4bd9e2c618c9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1gn503s > .cds-2",
+      "targets": [
+        ["css=.css-1gn503s > .cds-2", "css:finder"],
+        ["xpath=//div[@id='main']/div[5]/div/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec644c3-f607-4c6a-9ed5-60b7275a9bcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bt3-radio:nth-child(2) .cif-circle",
+      "targets": [
+        ["css=.bt3-radio:nth-child(2) .cif-circle", "css:finder"],
+        ["xpath=//div[@id='rc-TopLevelModal']/div/div[3]/div/div[2]/div[2]/div/div[2]/label/div/span/i[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div/span/i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "132e36e1-8f80-44d3-853a-5f5b6e9acd17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.continue-button",
+      "targets": [
+        ["css=.continue-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[37]", "xpath:attributes"],
+        ["xpath=//div[@id='rc-TopLevelModal']/div/div[3]/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4be13ae7-0d02-4add-80da-fd46ba985132",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4ee6f9e-4c41-4060-8aa2-38fb7d3d88f0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ae6c3f7-955e-4bb4-85ee-a43f50e77f74",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cfee0120-7f73-47d6-829b-99c2a520ac19",
+    "name": "View Enrolled Courses",
+    "commands": [{
+      "id": "685a2e78-a736-45df-89dd-002defacd3d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.coursera.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "098bc879-d95a-41c9-b02c-0d789528357a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51dc8c66-0fa1-4f64-8343-d8734d71ad5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-ph-username",
+      "targets": [
+        ["css=.c-ph-username", "css:finder"],
+        ["xpath=//button[@id='right-nav-dropdown-btn']/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shweta Kharat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b2332c5-031a-481e-8ed3-77fcb991b088",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c-ph-username",
+      "targets": [
+        ["css=.c-ph-username", "css:finder"],
+        ["xpath=//button[@id='right-nav-dropdown-btn']/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shweta Kharat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ffdceda-7bfc-47a0-9351-686b12278d35",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.c-ph-username",
+      "targets": [
+        ["css=.c-ph-username", "css:finder"],
+        ["xpath=//button[@id='right-nav-dropdown-btn']/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shweta Kharat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88f368a5-2a5b-46ea-ae0d-0658732dc18e",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-courses-link",
+      "targets": [
+        ["id=my-courses-link", "id"],
+        ["linkText=My Courses", "linkText"],
+        ["css=#my-courses-link", "css:finder"],
+        ["xpath=//a[contains(text(),'My Courses')]", "xpath:link"],
+        ["xpath=//a[@id='my-courses-link']", "xpath:attributes"],
+        ["xpath=//ul[@id='c-ph-aai-dropdown']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/?skipBrowseRedirect=true')]", "xpath:href"],
+        ["xpath=//li[11]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b470f028-5b40-46e7-8c41-d5bd4d980845",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Completed",
+      "targets": [
+        ["linkText=Completed", "linkText"],
+        ["css=.loggedInHome-tab:nth-child(3) > .cds-33", "css:finder"],
+        ["xpath=//a[contains(text(),'Completed')]", "xpath:link"],
+        ["xpath=//nav[@id='main']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/completed')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Completed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05a55a32-39a7-4a23-b344-c89c044120fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Completed",
+      "targets": [
+        ["linkText=Completed", "linkText"],
+        ["css=.loggedInHome-tab:nth-child(3) > .cds-33", "css:finder"],
+        ["xpath=//a[contains(text(),'Completed')]", "xpath:link"],
+        ["xpath=//nav[@id='main']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/completed')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Completed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d860033-568b-43fe-a3aa-8f60d56d8409",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=In Progress",
+      "targets": [
+        ["linkText=In Progress", "linkText"],
+        ["css=.loggedInHome-tab:nth-child(2) > .cds-33", "css:finder"],
+        ["xpath=//a[contains(text(),'In Progress')]", "xpath:link"],
+        ["xpath=//nav[@id='main']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/in-progress')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'In Progress')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38e1c6c3-4f7e-43c9-954e-5acade80a939",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=In Progress",
+      "targets": [
+        ["linkText=In Progress", "linkText"],
+        ["css=.is-active > .cds-33", "css:finder"],
+        ["xpath=//a[contains(text(),'In Progress')]", "xpath:link"],
+        ["xpath=//nav[@id='main']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/in-progress')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'In Progress')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb300974-60d1-4065-8639-47a31b1d1c76",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=In Progress",
+      "targets": [
+        ["linkText=In Progress", "linkText"],
+        ["css=.is-active > .cds-33", "css:finder"],
+        ["xpath=//a[contains(text(),'In Progress')]", "xpath:link"],
+        ["xpath=//nav[@id='main']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/in-progress')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'In Progress')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd23d48d-d477-4521-92f8-e7f37f674d72",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8d11fe65-e8c6-4e16-8418-a6f39c879f0b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7f12e68a-15ed-40d8-bfc9-f72717af549f"]
+  }],
+  "urls": ["https://www.google.com/", "https://www.coursera.org/?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA__branded_FTCOF__arte&utm_content=B2C&campaignid=18216928764&adgroupid=141296025592&device=c&keyword=cousera&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=619458216878&hide_mobile_promo&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9sir5IieUhkBZhl1dkUWErem0TDbpIVJhNgO_Hn07QylO0cvjzCzkaAqE6EALw_wcB", "https://www.coursera.org/?adgroupid=141296025592&adpostion=&campaignid=18216928764&creativeid=619458216878&device=c&devicemodel=&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9sir5IieUhkBZhl1dkUWErem0TDbpIVJhNgO_Hn07QylO0cvjzCzkaAqE6EALw_wcB&hide_mobile_promo&keyword=cousera&matchtype=b&network=g&utm_campaign=B2C_INDIA__branded_FTCOF__arte&utm_content=B2C&utm_medium=sem&utm_source=gg", "https://www.coursera.org/in-progress", "https://www.coursera.org/"],
+  "plugins": []
+}
